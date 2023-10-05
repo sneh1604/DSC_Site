@@ -642,6 +642,7 @@
             </div>
           </div>
         </div>
+        <!-- Current Memebers -->
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12 col-sm-8 col-lg-6">
@@ -664,6 +665,32 @@
           </div>
           <div class="row">
             <div class="responsive" id="memberContainer"></div>
+          </div>
+        </div>
+        <!-- Alumini  -->
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-6">
+              <!-- Section Heading-->
+              <div
+                class="section_heading text-center wow fadeInUp"
+                data-wow-delay="0.2s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.2s;
+                  animation-name: fadeInUp;
+                  padding-top: 1em;
+                  padding-bottom: 3em;
+                "
+              >
+                <h3><span> Alumini</span></h3>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="responsive"></div>
           </div>
         </div>
         <!-- End Of Team -->
@@ -748,7 +775,7 @@
         </div>
       </center>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/teams.js"></script>
     <script src="vendors/particles.js"></script>
     <script src="vendors/app.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -758,80 +785,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="js/teams.js"></script>
-
-    <script type="text/javascript">
-      $(".responsive").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        dots: true,
-        variableWidth: false,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        responsive: [
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
-            },
-          },
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
-        ],
-      });
-
-      var btn = $("#button");
-      $(window).scroll(function () {
-        if ($(window).scrollTop() > 300) {
-          btn.addClass("show");
-        } else {
-          btn.removeClass("show");
-        }
-      });
-
-      window.onscroll = function () {
-        myFunction();
-      };
-
-      var navlist = document.getElementById("navbar-toggler");
-      var sticky = navlist.offsetTop;
-
-      /* Function to stick the nav bar */
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navlist.classList.add("sticky");
-        } else {
-          navlist.classList.remove("sticky");
-        }
-      }
-
-      btn.on("click", function (e) {
-        e.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "300");
-      });
-    </script>
+    <script src="js/script.js"></script>
 
     <!-- JavaScript Bundle with Popper -->
     <script

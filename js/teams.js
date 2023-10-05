@@ -1,34 +1,62 @@
-// Add Dynamic Teams Data
-/*  Image Path
-    Linkedin url
-    name 
-    designation
- a*/
+const memberContainer = document.querySelector("#memberContainer");
 
 let teamMembers = [
   {
-    name: "Samarth Chauhan",
+    name: "Rinkal Mav",
     url: "url",
     img_path: "images/lead-1.png",
-    designation: "Tech Member",
+    designation: "Lead",
+  },
+  {
+    name: "Vaidehi Ghodasara",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Co-Lead",
+  },
+  {
+    name: "Kshitiz Pandya",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Tech-Lead",
   },
   {
     name: "Samarth Chauhan",
     url: "url",
     img_path: "images/lead-1.png",
-    designation: "Tech Member",
+    designation: "Technical Team",
   },
   {
-    name: "Samarth Chauhan",
+    name: "Anmol Chauhan",
     url: "url",
     img_path: "images/lead-1.png",
-    designation: "Tech Member",
+    designation: "Technical Team",
+  },
+  {
+    name: "Kirtan Matalia",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Technical Team",
+  },
+  {
+    name: "Parshwa Salot",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Graphic Designer",
+  },
+  {
+    name: "Sneh Shah",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Web Developer",
+  },
+  {
+    name: "Jiya Thakkar",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Content Writer",
   },
 ];
 
-// let member_template =;
-
-const memberContainer = document.querySelector("#memberContainer");
 function addTeamMembers() {
   teamMembers.forEach((mem) => {
     memberContainer.innerHTML += `<div class="col-12 col-sm-6 col-lg-3">
