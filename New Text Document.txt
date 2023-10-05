@@ -17,3 +17,12 @@ pop up on homepage
 button at bottom to go on top
 upper index fixed--nav bar
 
+
+------ 2023 -------
+Remake Event Section
+Redirect projects and courses page to coming soon
+Remove previous team images
+Add alumini Section
+Remake navbar
+Fonts style change
+
