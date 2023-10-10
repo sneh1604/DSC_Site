@@ -1,4 +1,5 @@
 const memberContainer = document.querySelector("#memberContainer");
+const almContainer = document.querySelector("#almContainer");
 
 let teamMembers = [
   {
@@ -57,9 +58,9 @@ let teamMembers = [
   },
 ];
 
-function addTeamMembers() {
-  teamMembers.forEach((mem) => {
-    memberContainer.innerHTML += `<div class="col-12 col-sm-6 col-lg-3">
+function addTeamMembers(memberList, container) {
+  memberList.forEach((mem) => {
+    container.innerHTML += `<div class="col-12 col-sm-6 col-lg-3">
     <div
       class="single_advisor_profile wow fadeInUp"
       data-wow-delay="0.5s"
@@ -94,4 +95,6 @@ function addTeamMembers() {
   });
 }
 
-addTeamMembers();
+addTeamMembers(teamMembers, memberContainer);
+// TODO: Replace teammember with alumni
+addTeamMembers(teamMembers, almContainer);
