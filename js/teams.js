@@ -39,16 +39,16 @@ let teamMembers = [
     designation: "Technical Team",
   },
   {
-    name: "Parshwa Salot",
-    url: "url",
-    img_path: "images/lead-1.png",
-    designation: "Graphic Designer",
-  },
-  {
     name: "Sneh Shah",
     url: "url",
     img_path: "images/lead-1.png",
     designation: "Web Developer",
+  },
+  {
+    name: "Parshwa Salot",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Graphic Designer",
   },
   {
     name: "Jiya Thakkar",
@@ -95,6 +95,95 @@ function addTeamMembers(memberList, container) {
   });
 }
 
+    // Get the image and pop-up container
+    const image = document.getElementById("myImage");
+    const popup = document.getElementById("image-popup");
+    const popupImage = document.getElementById("popup-image");
+    const closeBtn = document.getElementById("close-popup");
+    
+    // Function to open the pop-up
+    image.addEventListener("click", function() {
+        popup.style.display = "block";
+        popupImage.src = image.src;
+    });
+    
+    // Function to close the pop-up
+    closeBtn.addEventListener("click", function() {
+        popup.style.display = "none";
+    });
+    
+
+
+
 addTeamMembers(teamMembers, memberContainer);
 // TODO: Replace teammember with alumni
-addTeamMembers(teamMembers, almContainer);
+addTeamMembers(almMembers, almContainer);
+
+let almMembers = [
+  {
+    name: "Zeel Amrutiya",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Lead",
+  },
+  {
+    name: "Aayush Ghadiya",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Co-Lead",
+  },
+  {
+    name: "Megha Goriya",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Co-Lead",
+  },
+  {
+    name: "Jhanvi Shah",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "ML Team",
+  },
+  {
+    name: "Nishit Patel",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Web Developer",
+  },
+  {
+    name: "Shrey Makwana",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Web Developer",
+  },
+  {
+    name: "Vitan Tarpara",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Web Developer",
+  },
+  {
+    name: "Om Butani",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Content Writer",
+  },
+  {
+    name: "Shrey Navadiya",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Graphic Designer",
+  },
+  {
+    name: "Malav Champaneria",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Member",
+  },
+  {
+    name: "Jiten Bhalavat",
+    url: "url",
+    img_path: "images/lead-1.png",
+    designation: "Member",
+  },
+];
