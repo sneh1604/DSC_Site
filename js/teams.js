@@ -117,7 +117,7 @@ function addTeamMembers(memberList, container) {
 
 addTeamMembers(teamMembers, memberContainer);
 // TODO: Replace teammember with alumni
-addTeamMembers(almMembers, almContainer);
+
 
 let almMembers = [
   {
@@ -129,61 +129,63 @@ let almMembers = [
   {
     name: "Aayush Ghadiya",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/co-lead-1.png",
     designation: "Co-Lead",
   },
   {
     name: "Megha Goriya",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/co-lead-2.png",
     designation: "Co-Lead",
   },
   {
     name: "Jhanvi Shah",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/Jhanvi.png",
     designation: "ML Team",
   },
   {
     name: "Nishit Patel",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/web-dev-2.png",
     designation: "Web Developer",
   },
   {
     name: "Shrey Makwana",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/web-dev-3.png",
     designation: "Web Developer",
   },
   {
     name: "Vitan Tarpara",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/web-dev-1.png",
     designation: "Web Developer",
   },
   {
-    name: "Om Butani",
+    name: "Omshree Butani",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/content-writer 1.png",
     designation: "Content Writer",
   },
   {
     name: "Shrey Navadiya",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/graphic.png",
     designation: "Graphic Designer",
   },
   {
     name: "Malav Champaneria",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/member1.png",
     designation: "Member",
   },
   {
     name: "Jiten Bhalavat",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/member2.png",
     designation: "Member",
   },
 ];
+
+addTeamMembers(almMembers, almContainer);
