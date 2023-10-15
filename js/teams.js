@@ -5,13 +5,13 @@ let teamMembers = [
   {
     name: "Rinkal Mav",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/rinkal.jpg",
     designation: "Lead",
   },
   {
     name: "Vaidehi Ghodasara",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/vaidehi.jpg",
     designation: "Co-Lead",
   },
   {
@@ -23,37 +23,37 @@ let teamMembers = [
   {
     name: "Samarth Chauhan",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/samarth.jpg",
     designation: "Technical Team",
   },
   {
     name: "Anmol Chauhan",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/anmol.jpg",
     designation: "Technical Team",
   },
   {
     name: "Kirtan Matalia",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/Kirtan.png",
     designation: "Technical Team",
   },
   {
     name: "Sneh Shah",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/sneh.jpg",
     designation: "Web Developer",
   },
   {
     name: "Parshwa Salot",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/parshwa.jpg",
     designation: "Graphic Designer",
   },
   {
     name: "Jiya Thakkar",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/jiya.jpg",
     designation: "Content Writer",
   },
 ];
@@ -72,7 +72,7 @@ function addTeamMembers(memberList, container) {
     >
       <!-- Profile Picture-->
       <div class="advisor_thumb">
-        <img src="${mem.img_path}" alt="" />
+        <img class="img-fluid" src="${mem.img_path}" alt="" />
         <!-- Social Info-->
         <div class="social-info">
           <a
@@ -95,28 +95,9 @@ function addTeamMembers(memberList, container) {
   });
 }
 
-    // Get the image and pop-up container
-    const image = document.getElementById("myImage");
-    const popup = document.getElementById("image-popup");
-    const popupImage = document.getElementById("popup-image");
-    const closeBtn = document.getElementById("close-popup");
-    
-    // Function to open the pop-up
-    image.addEventListener("click", function() {
-        popup.style.display = "block";
-        popupImage.src = image.src;
-    });
-    
-    // Function to close the pop-up
-    closeBtn.addEventListener("click", function() {
-        popup.style.display = "none";
-    });
-    
+  
 
 
-
-addTeamMembers(teamMembers, memberContainer);
-// TODO: Replace teammember with alumni
 
 
 let almMembers = [
@@ -177,15 +158,18 @@ let almMembers = [
   {
     name: "Malav Champaneria",
     url: "url",
-    img_path: "images/member1.png",
+    img_path: "images/member1.jpg",
     designation: "Member",
   },
   {
     name: "Jiten Bhalavat",
     url: "url",
-    img_path: "images/member2.png",
+    img_path: "images/member2.jpg",
     designation: "Member",
   },
 ];
 
+
+addTeamMembers(teamMembers, memberContainer);
+// TODO: Replace teammember with alumni
 addTeamMembers(almMembers, almContainer);

@@ -123,6 +123,25 @@
       </div>
     </section>
   </body>
+  <script>
+      // Get the image and pop-up container
+      const image = document.getElementById("myImage");
+    const popup = document.getElementById("image-popup");
+    const popupImage = document.getElementById("popup-image");
+    const closeBtn = document.getElementById("close-popup");
+    
+    // Function to open the pop-up
+    image.addEventListener("click", function() {
+        popup.style.display = "block";
+        popupImage.src = image.src;
+    });
+    
+    // Function to close the pop-up
+    closeBtn.addEventListener("click", function() {
+        popup.style.display = "none";
+    });
+    
+  </script>
 </html>
 
 <!-- <div
