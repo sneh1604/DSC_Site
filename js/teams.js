@@ -5,31 +5,31 @@ let teamMembers = [
   {
     name: "Rinkal Mav",
     url: "url",
-    img_path: "images/rinkal.jpg",
+    img_path: "images/rinkl.png",
     designation: "Lead",
   },
   {
     name: "Vaidehi Ghodasara",
     url: "url",
-    img_path: "images/vaidehi.jpg",
+    img_path: "images/vaidehi.png",
     designation: "Co-Lead",
   },
   {
     name: "Kshitiz Pandya",
     url: "url",
-    img_path: "images/kshitij.jpg",
+    img_path: "images/kshitij.png",
     designation: "Tech-Lead",
   },
   {
     name: "Samarth Chauhan",
     url: "url",
-    img_path: "images/samarth.jpg",
+    img_path: "images/samarth.png",
     designation: "Technical Team",
   },
   {
     name: "Anmol Chauhan",
     url: "url",
-    img_path: "images/anmol.jpg",
+    img_path: "images/anmol.png",
     designation: "Technical Team",
   },
   {
@@ -41,19 +41,19 @@ let teamMembers = [
   {
     name: "Sneh Shah",
     url: "url",
-    img_path: "images/sneh.jpg",
+    img_path: "images/sneh.png",
     designation: "Web Developer",
   },
   {
     name: "Parshwa Salot",
     url: "url",
-    img_path: "images/parshwa.jpg",
+    img_path: "images/parshwa.png",
     designation: "Graphic Designer",
   },
   {
     name: "Jiya Thakkar",
     url: "url",
-    img_path: "images/jiya.jpg",
+    img_path: "images/jiya.png",
     designation: "Content Writer",
   },
 ];
