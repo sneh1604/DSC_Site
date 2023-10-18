@@ -17,7 +17,7 @@ let teamMembers = [
   {
     name: "Kshitiz Pandya",
     url: "url",
-    img_path: "images/lead-1.png",
+    img_path: "images/kshitij.jpg",
     designation: "Tech-Lead",
   },
   {
